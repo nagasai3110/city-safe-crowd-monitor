@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CrowdGuard AI - City Safe</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+</head>
+
+<body>
+
+<h1>CrowdGuard AI Dashboard</h1>
+
+<div id="map"></div>
+
+<div class="panel">
+<h2>Risk Detection</h2>
+
+<label>Heart Rate:</label>
+<input id="hr">
+
+<label>HRV:</label>
+<input id="hrv">
+
+<button onclick="checkRisk()">Check Risk</button>
+
+<h3 id="result"></h3>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+font-family: Arial;
+text-align:center;
+background:#f4f4f4;
+}
+
+#map{
+width:80%;
+height:400px;
+margin:auto;
+border:2px solid black;
+}
+
+.panel{
+margin-top:20px;
+padding:20px;
+background:white;
+width:300px;
+margin-left:auto;
+margin-right:auto;
+border-radius:10px;
+}
